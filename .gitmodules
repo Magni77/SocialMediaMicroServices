@@ -1,0 +1,3 @@
+[submodule "PostsService"]
+	path = PostsService
+	url = https://github.com/Magni77/PostsService
