@@ -1,3 +1,6 @@
 [submodule "PostsService"]
 	path = PostsService
 	url = https://github.com/Magni77/PostsService
+[submodule "AuthService"]
+	path = AuthService
+	url = https://github.com/Magni77/AuthService
