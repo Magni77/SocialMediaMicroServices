@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abab75cb-a4bc-4c65-9f12-8bb62039e532" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AuthService" beforeDir="false" afterPath="$PROJECT_DIR$/../AuthService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostsService" beforeDir="false" afterPath="$PROJECT_DIR$/../PostsService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coveragerc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.envs/.local/.django" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.envs/.local/.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/profilesservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/merge_production_dotenvs_in_dotenv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/migrate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pytest___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pytest__users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runserver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runserver_plus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pylintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/local/django/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/local/django/celery/beat/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/local/django/celery/flower/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/local/django/celery/worker/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/local/django/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/caddy/Caddyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/caddy/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/celery/beat/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/celery/flower/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/celery/worker/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/entrypoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/django/start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/_sourced/constants.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/_sourced/countdown.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/_sourced/messages.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/_sourced/yes_no.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/backups" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/production/postgres/maintenance/restore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/production.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/deploy.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docker_ec2.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/install.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/configuration.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/f1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/f4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/issue1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pycharm/images/issue2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_production_dotenvs_in_dotenv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/sites/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/sites/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/sites/migrations/0002_alter_domain_unique.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/sites/migrations/0003_set_site_domain_and_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/contrib/sites/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/css/project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/fonts/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/images/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/js/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/sass/custom_bootstrap_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/static/sass/project.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/taskapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/taskapp/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/403_csrf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/account_inactive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/email_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_reset_from_key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_reset_from_key_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/password_set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/signup_closed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/verification_sent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/account/verified_email_required.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/users/user_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/users/user_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/templates/users/user_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/factories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/test_forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/test_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/test_urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/tests/test_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profilesservice/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/local.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/production.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1870213692">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="3" />
+          <entry key="django" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="ini" value="2" />
+          <entry key="py" value="15" />
+          <entry key="start" value="1" />
+          <entry key="txt" value="3" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dockerfile" value="3" />
+          <entry key="Ini" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="15" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="21" />
+    <option name="width" value="1863" />
+    <option name="height" value="1059" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="compose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="compose" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="compose" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilesservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilesservice" type="462c0819:PsiDirectoryNode" />
+              <item name="requirements" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.migrate">
+    <list>
+      <item itemvalue="Django server.migrate" />
+      <item itemvalue="Django server.runserver" />
+      <item itemvalue="Django server.runserver_plus" />
+      <item itemvalue="Python tests.pytest: ." />
+      <item itemvalue="Python tests.pytest: users" />
+      <item itemvalue="Python.merge_production_dotenvs_in_dotenv" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abab75cb-a4bc-4c65-9f12-8bb62039e532" name="Default Changelist" comment="" />
+      <created>1538675133462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538675133462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="21" width="1863" height="1059" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18012081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/profilesservice/contrib/sites/migrations/0003_set_site_domain_and_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/contrib/sites/migrations/0002_alter_domain_unique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_production_dotenvs_in_dotenv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/taskapp/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.envs/.production/.django">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.envs/.local/.django">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/local/django/start">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="109" column="47" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements/base.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements/local.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements/production.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/production/django/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/tests/factories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilesservice/users/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/local/django/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="79" lean-forward="true" selection-end-line="330" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
