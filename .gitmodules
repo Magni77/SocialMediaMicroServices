@@ -4,3 +4,6 @@
 [submodule "AuthService"]
 	path = AuthService
 	url = https://github.com/Magni77/AuthService
+[submodule "ProfilesService"]
+	path = ProfilesService
+	url = https://github.com/Magni77/ProfilesService
