@@ -10,3 +10,6 @@
 [submodule "Client"]
 	path = Client
 	url = https://github.com/Magni77/Client
+[submodule "APIGateway"]
+	path = APIGateway
+	url = https://github.com/Magni77/APIGateway
