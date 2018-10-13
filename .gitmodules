@@ -7,3 +7,6 @@
 [submodule "ProfilesService"]
 	path = ProfilesService
 	url = https://github.com/Magni77/ProfilesService
+[submodule "Client"]
+	path = Client
+	url = https://github.com/Magni77/Client
