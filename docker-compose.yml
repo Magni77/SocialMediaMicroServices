@@ -1,0 +1,38 @@
+version: '2'
+services:
+  posts-service:
+    build: PostsService/.
+    ports:
+     - "8082:8082"
+    networks:
+      - backend
+  api-gateway:
+    build: APIGateway/.
+    ports:
+     - "5000:5000"
+    environment:
+      - AUTH_SERVICE_URL=http://auth-service:8081
+      - POSTS_SERVICE_URL=http://posts-service:8082
+      - PROFILES_SERVICE_URL=http://profiles-service:9000
+    networks:
+      - backend
+  auth-service:
+    build: AuthService/.
+    ports:
+     - "8081:8081"
+    networks:
+     - backend
+  profiles-service:
+    build: ProfilesService/.
+    ports:
+     - "9000:9000"
+    networks:
+     - backend
+  client:
+    build: client/.
+    ports:
+      - "8080:8080"
+
+networks:
+ backend:
+   driver: bridge
